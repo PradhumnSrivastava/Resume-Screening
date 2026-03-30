@@ -2,7 +2,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import re
 
 
-# ✅ TF-IDF Vectorization (DON'T REMOVE THIS)
+#TF-IDF Vectorization (DON'T REMOVE THIS)
 def vectorize(resumes, job_desc):
     vectorizer = TfidfVectorizer(ngram_range=(1,2))
     vectors = vectorizer.fit_transform(resumes + [job_desc])
