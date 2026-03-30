@@ -9,7 +9,7 @@ def vectorize(resumes, job_desc):
     return vectors
 
 
-# ✅ Dynamic Keyword Extraction (Improved)
+#Dynamic Keyword Extraction (Improved)
 def extract_keywords(text):
     text = text.lower()
 
